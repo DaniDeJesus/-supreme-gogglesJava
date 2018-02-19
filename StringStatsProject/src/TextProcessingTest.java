@@ -29,6 +29,18 @@ public class TextProcessingTest {
 	//	System.out.print(symbol);
 		System.out.print("There are: " + letter + " Letters");
 		System.out.print("There are: " + num + " Numbers");
+		
+//Not sure about this, unable to branch off, had to add new branch:
+		if(subString.regionMatches(0, SubString, 0, theString.length())
+			 System.out.println(SubString+" found "+(times+".");//have to add counter
+			 else
+			 System.out.println(SubString+" not found")
+	 
+ 	char[] charSubString= CheckSubstringV3.toCharArray();
+ 	for (int i=0;i<charSubString.length;i++) {
+ 	charSubString[i]=Character.toUpperCase(charSubString[i]);
+		//ends here
+ }
 
 }
 	
